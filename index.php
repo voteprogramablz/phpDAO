@@ -32,8 +32,10 @@ require_once('config.php');
 
 $usuario = new Usuario;
 
-$usuario->loadById(6);
+$usuario->loadById(38);
 
-$usuario->update("juninho", "safadagostosa");
+echo $usuario;
+
+$usuario->delete();
 
 echo $usuario;
